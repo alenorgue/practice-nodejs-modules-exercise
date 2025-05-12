@@ -8,3 +8,7 @@ for (let i = 0; i < arr.length; i++) {
 total = sum / arr.length;
 
 console.log(total);
+
+const { getAvgFromArray } = require('./mis-utilidades/utils');
+
+console.log(getAvgFromArray(arr));

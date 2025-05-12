@@ -2,3 +2,11 @@ const frutas = ["Manzana", "Banana", "Pera", "Naranja", "Uva", "Melón", "Sandí
     "Cereza", "Ciruela", "Mango", "Limón", "Mandarina", "Granada", "Higo", "Dátil", "Albaricoque", "Melocotón"];
 
 // importa el módulo "utils.js" y usa el método getRandomElementFromArray adecuadamente
+const {getRandomElementFromArray} = require('./mis-utilidades/utils');
+
+const randomFruit = [
+    getRandomElementFromArray(frutas),
+    getRandomElementFromArray(frutas),
+    getRandomElementFromArray(frutas)
+];
+console.log(`Fruta aleatoria: ${randomFruit}`);
